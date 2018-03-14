@@ -1,3 +1,99 @@
-p {
-  color: red;
+*{
+    box-sizing: border-box;
 }
+
+
+.navBar {
+  height: 100px;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.gregstitle {
+  font-size: 26px;
+  padding: 10px;
+}
+
+.linkContainer {
+  right: 100px;
+  position: absolute;
+  top: 35px;
+  font-size: 26px;
+}
+
+.accountLink {
+  text-decoration: none;
+  color: purple;
+  padding: 10px;
+}
+
+.search-section {
+  padding-left: 60px;
+}
+
+form {
+  padding-top: 150px;
+}
+
+.search-label {
+  display: block;
+  padding: 5px;
+}
+
+.search-field, .search-button {
+  display: inline-block;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+  .search-field {
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+  }
+
+  .search-button {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    vertical-align: bottom;
+  }
+
+  .pageNavigationContainer {
+    padding-left: 60px;
+    padding-top: 30px;
+    font-size: 0;
+  }
+
+  .prev {
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .results {
+    display: inline-block;
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    font-size: 20px;
+    vertical-align: bottom;
+    border-radius: 5px;
+  }
+
+  .jobResults {
+    padding-left: 60px;
+    padding-top: 30px;
+  }
+
+  .individualResult p, a{
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .individualResult p {
+    color: grey
+  }

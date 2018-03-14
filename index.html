@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Gregslist</title>
     <link rel="stylesheet" type="text/css" href='main.css'>
   </head>
   <body>
-    <main>
-      <p>hello, world</p>
-    </main>
+    <nav>
+      <div class="navBar">
+        <h2 class="gregstitle">Greg's List</h2>
+        <div class="linkContainer">
+          <a href="#" class="accountLink">Post</a>
+          <a href="#" class="accountLink">Account</a>
+        </div>
+      </div>
+    </nav>
+    <section class="search-section">
+      <form>
+        <label class="search-label">Search Jobs</label>
+        <input type="text" class="search-field" placeholder="Search software jobs">
+        <input type="image" role="button" class="search-button" src="/Users/mthinton/Desktop/magnifying-glass.png">
+      </form>
+    </section>
+    <div class="pageNavigationContainer">
+      <button class="prev">< prev</button>
+      <div class="results">1 - 100 of 179</div>
+      <button class="prev">next ></button>
+    </div>
+    <div class="jobResults">
+      <div class="individualResult">
+        <p>June 22</p>
+        <a href="#">Technical Project Manager</a>
+        <p>Midtown East</p>
+      </div>
+      <div class="individualResult">
+        <p>June 21</p>
+        <a href="#">Frontend Developer</a>
+        <p>SoHo</p>
+      </div>
+      <div class="individualResult">
+        <p>June 20</p>
+        <a href="#">Senior Python Developer</a>
+        <p>Flatiron</p>
+      </div>
+    </div>
   </body>
 </html>
